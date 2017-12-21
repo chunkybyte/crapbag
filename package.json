@@ -20,5 +20,9 @@
     "bugs": {
         "url": "https://github.com/chunkybyte/crapbag/issues"
     },
-    "homepage": "https://github.com/chunkybyte/crapbag#readme"
+    "homepage": "https://github.com/chunkybyte/crapbag#readme",
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "webpack": "^3.10.0"
+    }
 }
