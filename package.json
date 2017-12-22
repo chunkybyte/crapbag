@@ -23,6 +23,9 @@
     "homepage": "https://github.com/chunkybyte/crapbag#readme",
     "dependencies": {
         "bootstrap": "^3.3.7",
-        "webpack": "^3.10.0"
+        "jquery": "^3.2.1"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1"
     }
 }
