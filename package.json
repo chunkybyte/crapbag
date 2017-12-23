@@ -1,33 +1,41 @@
 {
-    "name": "crapbag",
-    "version": "1.0.0",
-    "description": "a bag full of crap items - an ecommerce POC",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/chunkybyte/crapbag.git"
-    },
-    "keywords": [
-        "ecommerce",
-        "poc",
-        "crapbag"
-    ],
-    "author": "Ekansh Kothiyal",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/chunkybyte/crapbag/issues"
-    },
-    "homepage": "https://github.com/chunkybyte/crapbag#readme",
-    "dependencies": {
-        "bootstrap": "^3.3.7",
-        "jquery": "^3.2.1"
-    },
-    "devDependencies": {
-        "browser-sync": "^2.20.1",
-        "gulp": "^3.9.1",
-        "gulp-sass": "^3.1.0"
-    }
+  "name": "crapbag",
+  "version": "1.0.0",
+  "description": "a bag full of crap items - an ecommerce POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunkybyte/crapbag.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "poc",
+    "crapbag"
+  ],
+  "author": "Ekansh Kothiyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunkybyte/crapbag/issues"
+  },
+  "homepage": "https://github.com/chunkybyte/crapbag#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.20.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.3",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.0"
+  }
 }

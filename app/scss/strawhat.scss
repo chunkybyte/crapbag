@@ -6,4 +6,9 @@
 body {
     background-color: #E4E4E4;
     color: #000000;
+    background-image:url("./../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
