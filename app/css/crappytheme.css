@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: rgba(255, 254, 254, 0.95);
+  color: #2C2929;
+  font-family: 'Open Sans', sans-serif; }
+
+#main-navigation {
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  padding: 15px 0 0 0; }
+  #main-navigation #brand-title {
+    font-family: 'Bangers', cursive;
+    color: #EE5559;
+    font-size: 42px;
+    transform: rotate(-5deg); }
+    #main-navigation #brand-title i {
+      font-size: 22px; }
+  #main-navigation ul.navbar-right li {
+    padding-right: 20px; }
+    #main-navigation ul.navbar-right li a {
+      color: #2C2929;
+      font-size: 22px; }
+
+#plp-main {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center; }
+  #plp-main .plp-item {
+    padding: 20px 10px;
+    box-sizing: border-box; }
+    #plp-main .plp-item .plp-item-image {
+      width: 100px;
+      float: left; }
+    #plp-main .plp-item .plp-item-info .plp-item-title, #plp-main .plp-item .plp-item-info .plp-item-price, #plp-main .plp-item .plp-item-info .plp-item-rating {
+      display: inline-block;
+      margin-left: 20px; }
+    #plp-main .plp-item .plp-item-info .plp-item-title {
+      font-size: 22px; }
+    #plp-main .plp-item .plp-item-info .plp-item-price {
+      font-size: 15px;
+      font-weight: bold; }
+      #plp-main .plp-item .plp-item-info .plp-item-price i {
+        font-size: 13px; }
+    #plp-main .plp-item .plp-item-info .plp-item-addbtn {
+      margin-top: 22px;
+      vertical-align: bottom;
+      margin-left: 20px; }

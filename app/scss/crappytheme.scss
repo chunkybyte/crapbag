@@ -1,0 +1,97 @@
+$bg-color-main : rgba(255, 254, 254, 0.95);
+$bg-color-head : #FFFFFF;
+$txt-primary-color : #EE5559;
+$txt-secondary-color : #2C2929;
+$txt-header-size : 42px;
+$txt-nav-size : 22px;
+$font-body-style: 'Open Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@mixin commonBgProps {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: $bg-color-main;
+    color: $txt-secondary-color;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-navigation{
+    background-color: $bg-color-head;
+    border-radius: 0px;
+    // padding:10px 0px 15px 20px; 
+    padding:15px 0 0 0;
+
+    #brand-title{
+        font-family: 'Bangers', cursive;
+        color: $txt-primary-color;
+        font-size: $txt-header-size;
+        transform: rotate(-5deg);
+
+        i{
+        font-size: $txt-header-size - 20px;        
+        }
+    }
+
+    ul.navbar-right{
+        // margin-right:80px;
+
+        li{
+            padding-right:20px;
+
+            a{
+                color: $txt-secondary-color;  
+                font-size: $txt-nav-size;          
+            }
+        } 
+    }
+}
+
+#plp-main{
+    margin-top:80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    .plp-item{
+        padding: 20px 10px;
+        box-sizing: border-box;
+        // border: 1px solid #333;
+        .plp-item-image{
+            width: 100px;
+            float:left;
+        }
+        .plp-item-info{
+            .plp-item-title,.plp-item-price,.plp-item-rating{
+                display: inline-block;
+                margin-left:20px;
+            }
+            .plp-item-title{
+                font-size:$txt-nav-size;
+            }
+            .plp-item-price{
+                font-size:15px;
+                font-weight: bold;
+                i{
+                    font-size: 13px;
+                }
+            }
+            .plp-item-addbtn{
+                margin-top:22px;
+                vertical-align: bottom;
+                margin-left:20px;
+            }
+        }
+    }
+}
