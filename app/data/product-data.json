@@ -1,0 +1,19 @@
+{
+    "items" : [
+        {
+            "id" : 1001,
+            "prod_name" : "Ek Tha Tiger DVD",
+            "prod_price" : 259,
+            "prod_qty" : 21,
+            "prod_rating" : 7,
+            "prod_img": "https://cinejuana.files.wordpress.com/2013/05/ek-tha-tiger3.jpg"
+        },{
+            "id" : 1002,
+            "prod_name" : "Angular 1.7 Classes",
+            "prod_price" : 499,
+            "prod_qty" : 2,
+            "prod_rating" : 3,
+            "prod_img": "https://cinejuana.files.wordpress.com/2013/05/ek-tha-tiger3.jpg"            
+        }
+    ]
+}
