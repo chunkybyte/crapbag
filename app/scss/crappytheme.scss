@@ -59,7 +59,7 @@ body {
 }
 
 #plp-main{
-    margin-top:80px;
+    margin-top:50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -78,10 +78,14 @@ body {
                 margin-left:20px;
             }
             .plp-item-title{
-                font-size:$txt-nav-size;
+                font-size:18px;
+            }
+            .plp-item-rating{
+                color: #FFC801;
+                font-weight: bold;
             }
             .plp-item-price{
-                font-size:15px;
+                font-size:14px;
                 font-weight: bold;
                 i{
                     font-size: 13px;
@@ -93,5 +97,15 @@ body {
                 margin-left:20px;
             }
         }
+    }
+}
+#plp-footer{
+    margin:30px 20px 10px 20px;
+    padding:10px;
+    text-align:center;
+    border-radius:3px;
+    background-color:#E4E4E4;
+    span{
+        font-size: 13px;
     }
 }

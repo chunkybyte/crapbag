@@ -1,17 +1,58 @@
 {
     "items" : [
         {
-            "id" : 1001,
+            "id" : "pid1001",
             "prod_name" : "Ek Tha Tiger DVD",
             "prod_price" : 259,
             "prod_qty" : 21,
-            "prod_rating" : 7,
+            "prod_rating" : 5,
             "prod_img": "https://cinejuana.files.wordpress.com/2013/05/ek-tha-tiger3.jpg"
-        },{
-            "id" : 1002,
+        },
+        {
+            "id" : "pid1006",
+            "prod_name" : "Drawing by Some Douche",
+            "prod_price" : 564,
+            "prod_qty" : 8,
+            "prod_rating" : 4,
+            "prod_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj3bdk07PH82IilJGZLxNefJPPqZCkvvtAiuA60Tac5z2T6wb9"            
+        },
+        {
+            "id" : "pid1004",
+            "prod_name" : "Used up Matchbox",
+            "prod_price" : 9,
+            "prod_qty" : 10,
+            "prod_rating" : 5,
+            "prod_img": "https://cdn.shopify.com/s/files/1/0315/2749/products/red_and_white_matches.jpg?v=1502638297"            
+        },
+        {
+            "id" : "pid1007",
+            "prod_name" : "Haweye Action Figure",
+            "prod_price" : 1999,
+            "prod_qty" : 10,
+            "prod_rating" : 3,
+            "prod_img": "https://i.pinimg.com/736x/06/19/84/06198447283f2b471a9599088c5aa666--avengers-marvel-hawkeye.jpg"            
+        },
+        {
+            "id" : "pid1005",
+            "prod_name" : "Understading T9 Dictionary",
+            "prod_price" : 199,
+            "prod_qty" : 8,
+            "prod_rating" : 2,
+            "prod_img": "https://cdn.shopify.com/s/files/1/0315/2749/products/red_and_white_matches.jpg?v=1502638297"            
+        },
+        {
+            "id" : "pid1002",
             "prod_name" : "Angular 1.7 Classes",
             "prod_price" : 499,
             "prod_qty" : 2,
+            "prod_rating" : 3,
+            "prod_img": "https://cinejuana.files.wordpress.com/2013/05/ek-tha-tiger3.jpg"            
+        },
+        {
+            "id" : "pid1003",
+            "prod_name" : "Blackberry Q5 Phone",
+            "prod_price" : 999,
+            "prod_qty" : 3,
             "prod_rating" : 3,
             "prod_img": "https://cinejuana.files.wordpress.com/2013/05/ek-tha-tiger3.jpg"            
         }

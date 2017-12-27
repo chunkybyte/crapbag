@@ -1,12 +1,12 @@
 {{#each items}}
-    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4 plp-item clearfix">
-        <img class="img-responsive plp-item-image" src="{{items.prod_img}}" alt="{{items.prod_name}}">
+    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4 plp-item clearfix" id="{{this.id}}">
+        <img class="img-responsive plp-item-image" src="{{this.prod_img}}" alt="{{this.prod_name}}">
         <div class="plp-item-info">
-            <span class="plp-item-title">{{items.prod_name}}</span>
+            <span class="plp-item-title">{{this.prod_name}}</span>
             <br/>
-            <span class="plp-item-price"><i class="fas fa-rupee-sign"></i>{{items.prod_price}}</span>
+            <span class="plp-item-price"><i class="fas fa-rupee-sign"></i>{{this.prod_price}}</span>
             <br/>
-            <span class="plp-item-rating">Rating : {{items.prod_rating}}/5</span>
+            <span class="plp-item-rating">Rating : {{this.prod_rating}}/5</span>
             <br/>
             <button class="btn btn-success plp-item-addbtn">Add to Cart</button>
         </div>

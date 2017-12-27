@@ -27,7 +27,7 @@ body {
       font-size: 22px; }
 
 #plp-main {
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -42,9 +42,12 @@ body {
       display: inline-block;
       margin-left: 20px; }
     #plp-main .plp-item .plp-item-info .plp-item-title {
-      font-size: 22px; }
+      font-size: 18px; }
+    #plp-main .plp-item .plp-item-info .plp-item-rating {
+      color: #FFC801;
+      font-weight: bold; }
     #plp-main .plp-item .plp-item-info .plp-item-price {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: bold; }
       #plp-main .plp-item .plp-item-info .plp-item-price i {
         font-size: 13px; }
@@ -52,3 +55,12 @@ body {
       margin-top: 22px;
       vertical-align: bottom;
       margin-left: 20px; }
+
+#plp-footer {
+  margin: 30px 20px 10px 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #E4E4E4; }
+  #plp-footer span {
+    font-size: 13px; }
