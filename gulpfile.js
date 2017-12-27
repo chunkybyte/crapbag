@@ -4,8 +4,7 @@ var requireDir = require('require-dir');
 requireDir('./gulp/tasks');
 
 gulp.task('default',[
-    'build',
-    'watch'
+    'build'
 ]);
 
 // List of Gulp Tasks Created Here : 
