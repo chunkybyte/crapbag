@@ -7,6 +7,7 @@ gulp.task('scripts', function(){
         'sassify',
         'optimizeImages',
         'copyFonts',
+        'copySomeJS',
         'dataCopy',
         'handleTemplate',
         'useref'
