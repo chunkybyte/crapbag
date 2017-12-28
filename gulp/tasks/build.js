@@ -5,6 +5,7 @@ gulp.task('build', function(){
     runSequence(
         'clear:dist',
         'clearCache',
-        'scripts'
+        'scripts',
+        'finalTasks'
     );
 });

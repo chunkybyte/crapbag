@@ -10,7 +10,7 @@ gulp.task('handleTemplate', function(){
     .pipe(wrap('Handlebars.template(<%= contents %>)'))
     .pipe(declare({
       namespace: 'CrapbagPLP.templates',
-      noRedeclare: true, // Avoid duplicate declarations 
+      noRedeclare: true 
     }))
     .pipe(concat('templates.js'))
     .pipe(gulp.dest('dist/js/'));
