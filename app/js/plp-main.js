@@ -24,13 +24,3 @@
         }
     });
 })();
-
-// console.log("Inventory JSON ", inventory);
-
-// var template = CrapbagPLP["templates"]["article-item"];
-
-// var html = template(inventory);
-
-// var plpMain = document.getElementById('plp-main');
-
-// plpMain.innerHTML = html;
