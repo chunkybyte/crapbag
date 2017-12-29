@@ -6,16 +6,16 @@
 
 body {
   background-color: rgba(255, 254, 254, 0.95);
-  color: #2C2929;
-  font-family: 'Open Sans', sans-serif; }
+  color: #2c2929;
+  font-family: "Open Sans", sans-serif; }
 
 #main-navigation {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 0px;
   padding: 15px 0 0 0; }
   #main-navigation #brand-title {
-    font-family: 'Bangers', cursive;
-    color: #EE5559;
+    font-family: "Bangers", cursive;
+    color: #ee5559;
     font-size: 42px;
     transform: rotate(-5deg); }
     #main-navigation #brand-title i {
@@ -23,7 +23,7 @@ body {
   #main-navigation ul.navbar-right li {
     padding-right: 20px; }
     #main-navigation ul.navbar-right li a {
-      color: #2C2929;
+      color: #2c2929;
       font-size: 22px; }
 
 #plp-main {
@@ -38,13 +38,15 @@ body {
     #plp-main .plp-item .plp-item-image {
       width: 100px;
       float: left; }
-    #plp-main .plp-item .plp-item-info .plp-item-title, #plp-main .plp-item .plp-item-info .plp-item-price, #plp-main .plp-item .plp-item-info .plp-item-rating {
+    #plp-main .plp-item .plp-item-info .plp-item-title,
+    #plp-main .plp-item .plp-item-info .plp-item-price,
+    #plp-main .plp-item .plp-item-info .plp-item-rating {
       display: inline-block;
       margin-left: 20px; }
     #plp-main .plp-item .plp-item-info .plp-item-title {
       font-size: 18px; }
     #plp-main .plp-item .plp-item-info .plp-item-rating {
-      color: #FFC801;
+      color: #ffc801;
       font-weight: bold; }
     #plp-main .plp-item .plp-item-info .plp-item-price {
       font-size: 14px;
@@ -58,11 +60,34 @@ body {
       #plp-main .plp-item .plp-item-info .plp-item-addbtn.disabled {
         opacity: 0.5; }
 
+#cartModal .modal-header,
+#cartModal .modal-footer {
+  border: none;
+  text-align: center; }
+
+#cartModal #cartItemsMain {
+  text-align: center; }
+
+#cartModal .cart-item {
+  margin: 10px 0px;
+  text-align: left; }
+  #cartModal .cart-item .cart-item-title {
+    font-size: 20px; }
+  #cartModal .cart-item .cart-item-btn {
+    float: right; }
+
+#cartModal .modal-footer .cart-close {
+  font-size: 18px; }
+
 #plp-footer {
   margin: 30px 20px 10px 20px;
   padding: 10px;
   text-align: center;
   border-radius: 3px;
-  background-color: #E4E4E4; }
+  background-color: #e4e4e4; }
   #plp-footer span {
     font-size: 13px; }
+
+.check-cart {
+  background-color: #ee5559;
+  color: #fff !important; }
