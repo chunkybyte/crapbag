@@ -19,6 +19,7 @@ var PLPFunctions = (function(){
                 }
             }).then(function(){
                 PLPFunctions.bindings();
+                CartFunctions.init();
             });
         },
         bindTemplate : function(obj){
@@ -29,7 +30,7 @@ var PLPFunctions = (function(){
         bindings : function(){
             $('.plp-item-addbtn').click(function(){
                 CartFunctions.addToCart($(this).parents('.plp-item').attr('id'));
-            });   
+            });
         }
     }
 })();

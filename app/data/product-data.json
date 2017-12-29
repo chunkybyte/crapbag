@@ -11,7 +11,7 @@
         },
         {
             "id" : "pid1006",
-            "prod_name" : "Drawing by Some Douche",
+            "prod_name" : "Drawing by Someone",
             "prod_price" : 564,
             "prod_qty" : 8,
             "prod_rating" : 4,
@@ -47,7 +47,7 @@
         },
         {
             "id" : "pid1002",
-            "prod_name" : "Classes",
+            "prod_name" : "Some Thing Here",
             "prod_price" : 499,
             "prod_qty" : 2,
             "prod_rating" : 3,
