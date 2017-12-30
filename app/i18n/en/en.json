@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": ["Ekan Shkot"],
+        "last-updated": "2017-12-29",
+        "locale": "en"
+    },
+    "site-title": "Crapbag",
+    "cart-title": "Your Cart",
+    "rating-plp-item": "Rating",
+    "add-to-cart": "Add To Cart",
+    "out-of-stock": "Out of Stock",
+    "remove-item": "Remove",
+    "empty-cart-message": "Nothing is added to your cart",
+    "close-cart": "Close Cart",
+    "copyright-text": "Copyright"
+}

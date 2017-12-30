@@ -25,6 +25,8 @@ body {
     #main-navigation ul.navbar-right li a {
       color: #2c2929;
       font-size: 22px; }
+  #main-navigation ul.navbar-right #langSupport a {
+    font-size: 14px; }
 
 #plp-main {
   margin-top: 50px;
@@ -64,6 +66,9 @@ body {
 #cartModal .modal-footer {
   border: none;
   text-align: center; }
+
+#cartModal .modal-header .modal-title {
+  font-size: 24px; }
 
 #cartModal #cartItemsMain {
   text-align: center; }

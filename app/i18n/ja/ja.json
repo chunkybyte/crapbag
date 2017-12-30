@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": ["Roronoa Zoro"],
+        "last-updated": "2017-12-29",
+        "locale": "ja"
+    },
+    "site-title": "クラップバッグ",
+    "cart-title": "あなたのカート",
+    "rating-plp-item": "評価",
+    "add-to-cart": "カートに追加",
+    "out-of-stock": "在庫切れ",
+    "remove-item": "削除する",
+    "empty-cart-message": "あなたのカートには何も追加されていません",
+    "close-cart": "カートを見る",
+    "copyright-text": "著作権"
+}

@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": ["French Montana"],
+        "last-updated": "2017-12-29",
+        "locale": "fr"
+    },
+    "site-title": "Sac de merde",
+    "cart-title": "Votre Panier",
+    "rating-plp-item": "Évaluation",
+    "add-to-cart": "Ajouter au panier",
+    "out-of-stock": "En rupture de stock",
+    "remove-item": "Retirer",
+    "empty-cart-message": "Rien ajouté au panier",
+    "close-cart": "Fermer le panier",
+    "copyright-text": "droits d'auteur"
+}

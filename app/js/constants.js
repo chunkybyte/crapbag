@@ -1,6 +1,7 @@
 var Constants = (function(){
     return{
         INVENTORY: "INVENTORY",
-        CART: "CART"
+        CART: "CART",
+        LANG: "LANG"
     };
 })();

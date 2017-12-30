@@ -1,10 +1,11 @@
-var PLPFunctions = (function(){
+var PLPFunctions = (function() {
     return {
-        getInventory : function(){
-            if(DataService.hasProperty(Constants.INVENTORY)){
+        getInventory: function() {
+            if (DataService.hasProperty(Constants.INVENTORY)) {
                 PLPFunctions.bindTemplate(DataService.get(Constants.INVENTORY));
                 PLPFunctions.bindings();
-                return;                
+                CartFunctions.init();
+                return;
             }
             $.ajax({
                 type: "GET",
@@ -14,21 +15,21 @@ var PLPFunctions = (function(){
                     DataService.set(Constants.INVENTORY, inventoryData);
                     PLPFunctions.bindTemplate(DataService.get(Constants.INVENTORY));
                 },
-                failure: function(err){
+                failure: function(err) {
                     console.log("Seems like there was some problem with the AJAX Call. See : ", err);
                 }
-            }).then(function(){
+            }).then(function() {
                 PLPFunctions.bindings();
-                CartFunctions.init();
             });
         },
-        bindTemplate : function(obj){
-            var template = CrapbagPLP["templates"]["article-item"];                    
+        bindTemplate: function(obj) {
+            var template = CrapbagPLP["templates"]["product-tile"];
             var htmldata = template(obj);
             $('#plp-main').html(htmldata);
+            Multilingual.init();
         },
-        bindings : function(){
-            $('.plp-item-addbtn').click(function(){
+        bindings: function() {
+            $('.plp-item-addbtn').click(function() {
                 CartFunctions.addToCart($(this).parents('.plp-item').attr('id'));
             });
         }
@@ -36,3 +37,4 @@ var PLPFunctions = (function(){
 })();
 
 PLPFunctions.getInventory();
+Multilingual.init();

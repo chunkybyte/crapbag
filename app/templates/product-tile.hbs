@@ -1,0 +1,17 @@
+{{#each items}}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 plp-item clearfix" id="{{this.id}}">
+        <img class="img-responsive plp-item-image" src="{{this.prod_img}}" alt="{{this.prod_name}}">
+        <div class="plp-item-info">
+            <span class="plp-item-title">{{this.prod_name}}</span>
+            <br/>
+            <span class="plp-item-price"><i class="fas fa-rupee-sign"></i> {{this.prod_price}}</span>
+            <br/>
+            <span class="plp-item-rating"><label for="plp-item-rating"></label> {{this.prod_rating}}/5</span>
+            <br/>
+            <button class="btn btn-success plp-item-addbtn {{#if isOutOfStock}}disabled btn-warning{{/if}}" {{#if isOutOfStock}}disabled{{/if}}>
+            {{#if isOutOfStock}}<label for="disabled"></label>{{else}}<label for="plp-item-addbtn"></label>{{/if}}
+            </button>
+        </div>
+    </div>
+{{/each}}
+
