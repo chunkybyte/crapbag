@@ -10,9 +10,21 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 #main-navigation {
+  position: relative;
   background-color: #ffffff;
   border-radius: 0px;
   padding: 15px 0 0 0; }
+  #main-navigation #toggleMobileMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    display: block; }
+  #main-navigation #crapbagNavLinks {
+    text-align: center;
+    margin-top: 30px; }
+    #main-navigation #crapbagNavLinks span {
+      display: inline; }
   #main-navigation #brand-title {
     font-family: "Bangers", cursive;
     color: #ee5559;
@@ -26,7 +38,7 @@ body {
       color: #2c2929;
       font-size: 22px; }
   #main-navigation ul.navbar-right #langSupport a {
-    font-size: 14px; }
+    font-size: 22px; }
 
 #plp-main {
   margin-top: 50px;
@@ -96,3 +108,18 @@ body {
 .check-cart {
   background-color: #ee5559;
   color: #fff !important; }
+
+@media (max-width: 768px) {
+  #main-navigation #crapbagNavLinks {
+    display: none; } }
+
+@media (min-width: 768px) {
+  #main-navigation #crapbagNavLinks {
+    margin-top: 0px;
+    display: block; }
+    #main-navigation #crapbagNavLinks span {
+      display: none; }
+  #main-navigation #toggleMobileMenu {
+    display: none; }
+  #main-navigation ul.navbar-right #langSupport a {
+    font-size: 14px; } }

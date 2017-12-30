@@ -24,10 +24,13 @@
                     <label for="brand-title"></label> <i class="fas fa-shopping-cart"></i>
                 </a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html"><i class="fas fa-home"></i></a></li>
-                <li><a href="#"><i class="fas fa-child"></i></a></li>
-                <li><a id="cart-bag-icon" href="#" data-toggle="modal" data-target="#cartModal"><i class="fas fa-shopping-bag"></i></a></li>
+            <button id="toggleMobileMenu" class="btn btn-link">
+                <i class="fas fa-angle-down"></i>
+            </button>
+            <ul id="crapbagNavLinks" class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="#"><i class="fas fa-child"></i> <span>Profile</span></a></li>
+                <li><a id="cart-bag-icon" href="#" data-toggle="modal" data-target="#cartModal"><i class="fas fa-shopping-bag"></i> <span>Your Crap Bag</span></a></li>
                 <li id="langSupport" class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fas fa-globe"></i>
@@ -35,9 +38,9 @@
                         <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#" data-language="en">English</a></li>
-                        <li><a href="#" data-language="fr">French</a></li>
-                        <li><a href="#" data-language="ja">Japanese</a></li>
+                        <li><a href="" data-language="en">English</a></li>
+                        <li><a href="" data-language="fr">French</a></li>
+                        <li><a href="" data-language="ja">Japanese</a></li>
                     </ul>
                 </li>
             </ul>
@@ -83,6 +86,10 @@
 <script src="./js/custom.min.js"></script>
 <script>
     (function() {
+        $("#toggleMobileMenu").click(function() {
+            $("#crapbagNavLinks").slideToggle();
+        });
+
         $('#siteYear').html(new Date().getFullYear());
         $('#langSupport').find('.dropdown-menu').on('click', 'li a', function() {
             var setLanguage = $(this).attr('data-language');

@@ -27,10 +27,24 @@ body {
 }
 
 #main-navigation {
+    position: relative;
     background-color: $bg-color-head;
     border-radius: 0px;
-    // padding:10px 0px 15px 20px;
     padding: 15px 0 0 0;
+    #toggleMobileMenu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+        display: block;
+    }
+    #crapbagNavLinks {
+        text-align: center;
+        margin-top: 30px;
+        span {
+            display: inline;
+        }
+    }
     #brand-title {
         font-family: "Bangers", cursive;
         color: $txt-primary-color;
@@ -41,7 +55,6 @@ body {
         }
     }
     ul.navbar-right {
-        // margin-right:80px;
         li {
             padding-right: 20px;
             a {
@@ -51,7 +64,7 @@ body {
         }
         #langSupport {
             a {
-                font-size: 14px;
+                font-size: 22px;
             }
         }
     }
@@ -149,4 +162,35 @@ body {
 .check-cart {
     background-color: #ee5559;
     color: #fff !important;
+}
+
+@media (max-width: 768px) {
+    #main-navigation {
+        #crapbagNavLinks {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    // 768px se bigger
+    #main-navigation {
+        #crapbagNavLinks {
+            margin-top: 0px;
+            display: block;
+            span {
+                display: none;
+            }
+        }
+        #toggleMobileMenu {
+            display: none;
+        }
+        ul.navbar-right {
+            #langSupport {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
